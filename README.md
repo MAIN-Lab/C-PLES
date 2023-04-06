@@ -29,11 +29,19 @@ If you use [C-PLES](https://github.com/MAIN-Lab/C-PLES/) in your research, we wo
 
 
 
-<figure class="image">
-  <img src="{{ include.url }}" alt="{{ include.description }}">
-  <figcaption>{{ include.description }}</figcaption>
-</figure>
+## _includes/image.html
+<div class="image-wrapper" >
+  {% if include.url %}
+  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+  {% endif %}
+      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
+  {% if include.url %}
+  </a>
+  {% endif %}
+  {% if include.caption %}
+      <p class="image-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
 
-
-{% include image.html url="/images/fullmap.jpg" description="My cat, Robert Downey Jr." %}
-
+## Include the image in your post and specify a caption with this tag
+{% include image.html img="images/fullmap.png" title="" caption="" %}
