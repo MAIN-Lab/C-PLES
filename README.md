@@ -35,5 +35,5 @@ If you use [C-PLES](https://github.com/MAIN-Lab/C-PLES/) in your research, we wo
 </figure>
 
 
-{% include image.html url="/imagesfullmap.jpg" description="My cat, Robert Downey Jr." %}
+{% include image.html url="/images/fullmap.jpg" description="My cat, Robert Downey Jr." %}
 
