@@ -13,3 +13,10 @@ Figure 1. Location of Valles Marineris (VM) on Mars used for landslide mapping i
 <img src="images/CPLES_architecture_4.png"/>
 
 Figure 2. Detailed illustration of the proposed C-PLES architecture
+
+
+## Results
+
+<img src="images/prediction_samples.png"/>
+
+Figure 3. Visual comparison of multi-class Martian landslide segmentation outputs. (a) Input RGB image, (b) the segmentation mask (ground truth), (c) - (j) the segmentation outputs of experimented DL architectures: U-Net, Attention U-Net, TransUNet, R2UNet, UNet 3+, UNet++, and Swin-Unet, (i) the proposed C-PLES, respectively
