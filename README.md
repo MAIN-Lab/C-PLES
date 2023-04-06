@@ -4,9 +4,9 @@
 In this research, we present C-PLES (Contextual Progressive Layer Expansion with Self-attention), a deep learning architecture for multi-class landslide segmentation in the Valles Marineris (VM) on Mars. 
 
 
-
-
-<img src="images/Figure_1.png" width=500 align="center">
+<p align="center">
+  <img width=500 src="images/Figure_1.png">
+</p>
 
 Figure 1. Location of Valles Marineris (VM) on Mars used for landslide mapping in this study. (a) The multi-modality imagery used to train the (b) proposed segmentation model. (c) The output landslide segmentation map.
 
