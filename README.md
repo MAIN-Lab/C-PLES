@@ -6,7 +6,7 @@ In this research, we present C-PLES (Contextual Progressive Layer Expansion with
 
 
 
-<img src="images/Figure_1.png" width=100>
+<img src="images/Figure_1.png" width=500>
 
 Figure 1. Location of Valles Marineris (VM) on Mars used for landslide mapping in this study. (a) The multi-modality imagery used to train the (b) proposed segmentation model. (c) The output landslide segmentation map.
 
