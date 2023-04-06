@@ -6,7 +6,7 @@ In this research, we present C-PLES (Contextual Progressive Layer Expansion with
 
 
 
-<img src="images/Figure_1.png"/>
+<img src="images/Figure_1.png" width=100>
 
 Figure 1. Location of Valles Marineris (VM) on Mars used for landslide mapping in this study. (a) The multi-modality imagery used to train the (b) proposed segmentation model. (c) The output landslide segmentation map.
 
@@ -23,25 +23,11 @@ Figure 2. Detailed illustration of the proposed C-PLES architecture
 
 Figure 3. Visual comparison of multi-class Martian landslide segmentation outputs. (a) Input RGB image, (b) the segmentation mask (ground truth), (c) - (i) the segmentation outputs of experimented DL architectures: U-Net, Attention U-Net, TransUNet, R2UNet, UNet 3+, UNet++, and Swin-Unet, (j) the proposed C-PLES, respectively
 
+<img src="images/fullmap.png"/>
+
+Figure 4. Segmentation map of the landslides in the Martian Valles Marineris region. Four random regions are zoomed in to show in detail a comparison between the ground truth and the predicted segmentation. The IoU scores for each class are shown on the bottom right side of the figure.
+
+
 ## Citation
 
 If you use [C-PLES](https://github.com/MAIN-Lab/C-PLES/) in your research, we would appreciate a citation to the original paper:
-
-
-
-## _includes/image.html
-<div class="image-wrapper" >
-  {% if include.url %}
-  <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
-  {% endif %}
-      <img src="{{ site.url }}/{{ include.img }}" alt="{{ include.title }}"/>
-  {% if include.url %}
-  </a>
-  {% endif %}
-  {% if include.caption %}
-      <p class="image-caption">{{ include.caption }}</p>
-  {% endif %}
-</div>
-
-## Include the image in your post and specify a caption with this tag
-{% include image.html img="images/fullmap.png" title="" caption="" %}
