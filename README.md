@@ -26,3 +26,14 @@ Figure 3. Visual comparison of multi-class Martian landslide segmentation output
 ## Citation
 
 If you use [C-PLES](https://github.com/MAIN-Lab/C-PLES/) in your research, we would appreciate a citation to the original paper:
+
+
+
+<figure class="image">
+  <img src="{{ include.url }}" alt="{{ include.description }}">
+  <figcaption>{{ include.description }}</figcaption>
+</figure>
+
+
+{% include image.html url="/imagesfullmap.jpg" description="My cat, Robert Downey Jr." %}
+
