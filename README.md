@@ -32,6 +32,8 @@ Figure 4. Segmentation map of the landslides in the Martian Valles Marineris reg
 
 If you use [C-PLES](https://github.com/MAIN-Lab/C-PLES/) in your research, we would appreciate a citation to the original paper:
 
+Reyes, A. A., Paheding, S., Rajaneesh, A., Sajinkumar, K. S., & Oommen, T. (2023, June). C-PLES: Contextual Progressive Layer Expansion With Self-Attention for Multi-Class Landslide Segmentation on Mars Using Multimodal Satellite Imagery. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 354–364.
+
 ```
 @InProceedings{Reyes_2023_CVPR,
     author    = {Reyes, Abel A. and Paheding, Sidike and Rajaneesh, A. and Sajinkumar, K.S. and Oommen, Thomas},
